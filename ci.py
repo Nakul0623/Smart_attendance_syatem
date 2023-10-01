@@ -4,7 +4,7 @@ import os
 from io import BytesIO
 
 # Initialize AWS S3 client
-s3 = boto3.client('s3', aws_access_key_id='AKIATROPCW2PY2GRJNQX', aws_secret_access_key='Cb+DiFmF0MiWMpukW11uZUTaRmnBJlTLeJF0n8Pv')
+s3 = boto3.client('s3', aws_access_key_id='accsess_key', aws_secret_access_key='secret_key')
 
 # Replace with your S3 bucket name
 bucket_name = 'smartattendancesystem'
